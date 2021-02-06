@@ -1,0 +1,46 @@
+body{
+    
+    
+}
+
+header{
+    height: 70px;
+    background-color: #D1D3DC;
+}
+
+main{
+    background:#FCF007;
+    height: 620px;
+}
+
+h1{
+    font-weight: bold;
+}
+
+.casilleroP{
+    
+}
+
+.casilleroS{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.casillero1{
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+    box-shadow: 15px 10px 10px #09465c;
+    border-radius: 10px;
+}
+
+.ganador{
+    font-size: 40px;
+}
+
+footer{
+    height: 40px;
+    background-color: #D1D3DC;    
+}
+
