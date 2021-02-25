@@ -1,46 +1,55 @@
-body{
-    
-    
+body {
 }
 
-header{
-    height: 70px;
-    background-color: #D1D3DC;
+header {
+  height: 50px;
+  width: 100%;
+  background-color: rgb(128, 196, 196);
+  position: fixed;
 }
 
-main{
-    background:#FCF007;
-    height: 620px;
+main {
+  background: #fcf007;
+  height: 800px;
 }
 
-h1{
-    font-weight: bold;
+h1 {
+  font-weight: bold;
 }
 
-.casilleroP{
-    
+h2 {
+  font-weight: bold;
+  margin-top: 20px;
 }
 
-.casilleroS{
-    display:flex;
-    justify-content: center;
-    align-items: center;
+.casilleroP {
 }
 
-.casillero1{
-    width: 100px;
-    height: 100px;
-    margin-top: 10px;
-    box-shadow: 15px 10px 10px #09465c;
-    border-radius: 10px;
+.casilleroS {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.ganador{
-    font-size: 40px;
+.casillero1 {
+  width: 100px;
+  height: 100px;
+  margin-top: 10px;
+  box-shadow: 15px 10px 10px #09465c;
+  border-radius: 10px;
 }
 
-footer{
-    height: 40px;
-    background-color: #D1D3DC;    
+.ganador {
+  font-size: 40px;
+  font-weight: bold;
 }
 
+footer {
+  height: 40px;
+  background-color: black;
+  color: white;
+}
+
+.pie {
+  font-size: 20px;
+}
