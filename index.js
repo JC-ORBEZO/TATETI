@@ -27,15 +27,15 @@ const bec7=[];
 const bec8=[];
 
 const desahaiblitar=()=>{    
-    document.getElementById("space1").desabled;
-    document.getElementById("space2").desabled;
-    document.getElementById("space3").desabled;
-    document.getElementById("space4").desabled;
-    document.getElementById("space5").desabled;
-    document.getElementById("space6").desabled;
-    document.getElementById("space7").desabled;
-    document.getElementById("space8").desabled;
-    document.getElementById("space9").desabled;   
+    document.getElementById("space1").disabled=true;
+    document.getElementById("space2").disabled=true;
+    document.getElementById("space3").disabled=true;
+    document.getElementById("space4").disabled=true;
+    document.getElementById("space5").disabled=true;
+    document.getElementById("space6").disabled=true;
+    document.getElementById("space7").disabled=true;
+    document.getElementById("space8").disabled=true;
+    document.getElementById("space9").disabled=true;   
 }
 
 const verificar1=(muestra1,aca)=>{    
@@ -46,6 +46,7 @@ const verificar1=(muestra1,aca)=>{
     }
     if(valor1===3){
     document.getElementById("gana").innerHTML=`Tenemos un ganador ${simboloGanador1}`;
+    desahaiblitar();
     //console.log("Tenemos un ganador");
     //corteGanador=5;
        
@@ -62,6 +63,7 @@ const verificar2=(muestra2,aca)=>{
     }
     if(valor2===3){
     document.getElementById("gana").innerHTML=`Tenemos un ganador ${simboloGanador2}`;
+    desahaiblitar();
     //console.log("Tenemos un ganador");
     //corteGanador=5;
     
